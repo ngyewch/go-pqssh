@@ -1,4 +1,9 @@
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/ngyewch/go-pqssh/build.yml)
+![GitHub tag (with filter)](https://img.shields.io/github/v/tag/ngyewch/go-pqssh)
+
 # go-pqssh
+
+Go driver for PostgreSQL over SSH.
 
 ## Usage
 
