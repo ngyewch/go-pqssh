@@ -12,19 +12,21 @@ Go driver for PostgreSQL over SSH.
 package main
 
 import (
-	"database/sql"
+    "database/sql"
 
-	"github.com/ngyewch/go-pqssh"
-	"golang.org/x/crypto/ssh"
+    "github.com/ngyewch/go-pqssh"
+    "golang.org/x/crypto/ssh"
 )
 
 func main() {
-	var sshClient *ssh.Client
-	var dsn string
+    var sshClient *ssh.Client
+    var dsn string
 
-	dbConnector := pqssh.NewConnector(sshClient, dsn)
-	db := sql.OpenDB(dbConnector)
+    // Initialize
 
-	// ...
+    dbConnector := pqssh.NewConnector(sshClient, dsn)
+    db := sql.OpenDB(dbConnector)
+
+   // ...
 }
 ```
