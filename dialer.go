@@ -1,9 +1,10 @@
 package pqssh
 
 import (
-	"golang.org/x/crypto/ssh"
 	"net"
 	"time"
+
+	"golang.org/x/crypto/ssh"
 )
 
 // Dialer is the pqssh dialer.
