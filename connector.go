@@ -3,6 +3,7 @@ package pqssh
 import (
 	"context"
 	"database/sql/driver"
+
 	"golang.org/x/crypto/ssh"
 )
 
